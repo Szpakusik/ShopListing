@@ -1,0 +1,32 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 248px;
+  height: 48px;
+  padding: 10px 16px;
+  background: #f3e8ea;
+  border-radius: 12px;
+}
+
+.search__icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.search__input {
+  border: none;
+  background: transparent;
+  color: var(--color-price);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  outline: none;
+}
+
+.search__input::placeholder {
+  color: var(--color-price);
+}
+
+
