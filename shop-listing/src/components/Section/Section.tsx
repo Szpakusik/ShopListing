@@ -1,5 +1,5 @@
 import './Section.css'
-import { Card } from './Card'
+import { Card } from '../Card/Card'
 
 export type SectionItem = { title: string; price: string; img: string }
 

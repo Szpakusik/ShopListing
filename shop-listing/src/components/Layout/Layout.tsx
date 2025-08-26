@@ -1,5 +1,5 @@
-import { TopBar } from './TopBar'
-import { Content } from './Content'
+import { TopBar } from '../TopBar/TopBar'
+import { Content } from '../Content/Content'
 import './Layout.css'
 
 export function Layout() {

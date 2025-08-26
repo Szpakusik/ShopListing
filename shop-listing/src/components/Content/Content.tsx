@@ -1,5 +1,5 @@
 import './Content.css'
-import { Section } from './Section'
+import { Section } from '../Section/Section'
 
 const featured = [
   { title: 'Elegant Watch', price: '$150', img: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=400' },

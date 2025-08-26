@@ -1,6 +1,6 @@
 import "./TopBar.css";
-import logo from "../assets/logo.svg";
-import { Search } from "./Search";
+import logo from "../../assets/logo.svg";
+import { Search } from "../Search/Search";
 
 export function TopBar() {
   return (
