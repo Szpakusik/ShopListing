@@ -1,0 +1,19 @@
+.section {
+  margin-bottom: 48px;
+  max-width: 960px;
+}
+
+.section__title {
+  margin: 20px 16px 12px 16px;
+  color: var(--color-text);
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.section__listing {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  gap: 12px;
+}
+

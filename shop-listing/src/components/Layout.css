@@ -1,0 +1,9 @@
+.page-root {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.page-content {
+  max-width: 1280px;
+  margin: 0 auto;
+}

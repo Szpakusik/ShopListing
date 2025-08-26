@@ -1,0 +1,36 @@
+.card {
+  text-align: left;
+}
+
+.card__image-wrap {
+  width: 176px;
+  height: 176px;
+  background: var(--color-card-bg-dark);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__info {
+  margin-top: 12px;
+}
+
+.card__name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--color-text-secondary);
+}
+
+.card__price {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-price);
+}
+
+
