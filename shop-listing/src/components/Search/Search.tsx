@@ -1,5 +1,5 @@
 import "./Search.css";
-import searchIcon from "../assets/searchIcon.svg";
+import searchIcon from "../../assets/searchIcon.svg";
 
 export type SearchProps = {
   placeholder?: string;
