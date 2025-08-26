@@ -9,7 +9,7 @@
 .top-nav__inner {
   max-width: 1280px;
   margin: 0 auto;
-  height: 56px;
+  height: 97px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,9 @@
 }
 
 .brand__name {
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
   color: var(--color-text);
 }
 
@@ -52,7 +54,7 @@
   position: relative;
 }
 .search__icon::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 7px;
   height: 2px;
@@ -65,10 +67,7 @@
 
 .search__input {
   border: none;
-  outline: none;
   background: transparent;
   color: var(--color-input-text);
   width: 250px;
 }
-
-
