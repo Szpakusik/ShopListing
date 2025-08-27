@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { Section, type SectionItem } from '../Section/Section'
 import { getProducts } from '../../api/products'
 import './Content.css'
+import type { ProductDTO } from '../../types/Product'
 
 export function Content() {
   const [items, setItems] = useState<SectionItem[]>([])
@@ -18,7 +19,7 @@ export function Content() {
 
     getProducts(query)
       .then((products) => {
-        const mapped: SectionItem[] = (products ?? []).map((p: any) => ({
+        const mapped: SectionItem[] = (products ?? []).map((p: ProductDTO) => ({
           title: String(p.title),
           price: `$${p.price}`,
           img: String(p.thumbnail || (Array.isArray(p.images) ? p.images[0] : '')),
