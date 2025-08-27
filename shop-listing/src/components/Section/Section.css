@@ -1,6 +1,7 @@
 .section {
   margin-bottom: 48px;
   max-width: 960px;
+  width: 100%;
 }
 
 .section__title {
