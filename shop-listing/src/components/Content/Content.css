@@ -6,3 +6,28 @@
 }
 
 
+.loader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 0;
+}
+
+.loader__spinner {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--color-muted-border);
+  border-top-color: var(--color-price);
+  display: inline-block;
+  animation: spin 0.9s linear infinite;
+}
+
+.loader__text { color: var(--color-text); }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+

@@ -1,5 +1,6 @@
 .card {
   text-align: left;
+  width: 176px;
 }
 
 .card__image-wrap {
@@ -25,6 +26,13 @@
   font-weight: 500;
   line-height: 21px;
   color: var(--color-text-secondary);
+  line-clamp: 2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .card__price {
